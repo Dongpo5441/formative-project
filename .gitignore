@@ -1,0 +1,22 @@
+# 忽略所有临时文件
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# 忽略 RStudio 和 Conda 相关缓存
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.ipynb_checkpoints/
+
+# 忽略环境文件（如果你不想上传）
+environment.yml
+
+# 忽略数据文件夹及其所有内容data/
+
+# 忽略保存的密码或令牌（建议放在 secrets/ 或 config/ 文件夹中）
+secrets/
+config/*.token
